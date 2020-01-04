@@ -16,7 +16,7 @@ const App = () => {
 
   
 
-  fetch("/.netlify/functions/chrome", options)
+  fetch("/.netlify/functions-build/chrome", options)
   
       .catch((err) => {
           console.log(err)
